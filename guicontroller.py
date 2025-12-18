@@ -65,7 +65,7 @@ def instructions():
     print("To open a previously saved file, got to File > Open File.")
 
 window = Tk()
-window.title("Robot Arm Controller 2")
+window.title("Robot Arm Controller GUI")
 window.minsize(355,300)
 
 port_label=Label(window,text="Set Port:");
